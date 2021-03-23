@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: floralwhite;
+    width: 100vw;
+}
+.button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background:transparent;
+    outline-width: 0;
+}
+.button:hover{
+    background-color: floralwhite;
+    transform: scale(1.1);
+}
+.loginBox{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 20px 20px 20px gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+.routerLoginRegister{
+    display: flex;
+    align-items:flex-start;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.routerLoginRegister > div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: red;
+}
+.routerLoginRegister > div:nth-child(1){
+    border-right: 2px solid black;
+}
+
+.containerLogin{
+    display: grid;
+    height: 90vh;
+    width: 90vw;
+    place-items: center;
+}
+.inputfield{
+    display: inline;
+    margin: 5px;
+}
+.input{
+    margin-left: 5px;
+    padding: 5px;
+    background: lightgray;
+    outline-width: 0;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}
+.formGroup>div>input[type=submit]{
+    margin-left: 22px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
+    
+}
+
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 7vh;
+    background-color: darkgrey;
+}
+.navbar > div {
+    display: flex;
+}
+
+.right_menu >div{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.articalContainer{
+    margin: 10px 0px;
+    padding: 5px;
+    width: 800px;
+
+}
+.articalDesc{
+    height: 45px;
+    overflow: hidden;
+}
+.landingScreen{
+
+    display: flex;
+
+}
+.landingScreen_left{
+    width: 70%;
+    height: 93vh;
+}
+.landingScreen_right{
+    width: 30%;
+    height: 93vh;
+}
+.listArtical{
+    margin: 10px 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.listArtical>div:nth-child(2){
+    margin-left: 10px;
+}
+.listArtical>div>p{
+    height: 60px;
+    overflow: hidden;
+}
+
+.myaricalView{
+    display: flex;
+}
+
+.descContainer{
+    width: 100vw;
+}
